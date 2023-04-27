@@ -1,13 +1,10 @@
 version = 1
 
 [[analyzers]]
-name = "terraform"
+name = "php"
 
 [[analyzers]]
-name = "test-coverage"
-
-[[analyzers]]
-name = "java"
+name = "rust"
 
   [analyzers.meta]
-  runtime_version = "11"
+  msrv = "stable"
